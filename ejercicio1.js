@@ -22,3 +22,8 @@ var auto4 = {
   dni: 10274123,
   marca: "Honda"
 };
+
+auto1.velMax = "100 km";
+auto2.velMax = "120 km";
+auto3.velMax = "140 km";
+auto4.velMax = "115 km";
