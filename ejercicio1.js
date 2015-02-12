@@ -23,10 +23,10 @@ var auto4 = {
   marca: "Honda"
 };
 
-auto1.velMax = "100 km";
-auto2.velMax = "120 km";
-auto3.velMax = "140 km";
-auto4.velMax = "115 km";
+auto1.velMax = 100;
+auto2.velMax = 120;
+auto3.velMax = 140;
+auto4.velMax = 115;
 
 auto1.acelerar = function(){
   return this.velMax * 2;
@@ -40,3 +40,15 @@ auto3.acelerar = function(){
 auto4.acelerar = function(){
   return this.velMax * 2;
 };
+
+console.log(auto1.acelerar());
+console.log(auto2.acelerar());
+console.log(auto3.acelerar());
+console.log(auto4.acelerar());
+
+
+
+
+
+
+
