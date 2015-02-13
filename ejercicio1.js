@@ -23,6 +23,18 @@ var auto4 = {
   marca: "Honda"
 };
 
+var persona = {
+  nombre: "Juan Pablo",
+  apellido: "Ferrari",
+  dni: 33271258
+}
+var persona = {
+  nombre: "Diego",
+  apellido: "Linux",
+  dni: 11456789
+}
+
+
 auto1.velMax = 100;
 auto2.velMax = 120;
 auto3.velMax = 140;
